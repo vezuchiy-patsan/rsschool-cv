@@ -5,7 +5,8 @@
 * VK: [Daniil Akhiyan](https://vk.com/vezuchiy_patsan).
 * WhatsApp: [Daniil Akhiyan](https://wa.me/79052714903).
 * Telegram: [Daniil Akhiyan](https://t.me/Vezuchiy_patsan).
-* Email: [daniil.axiyan.316@mail.ru](mailto:daniil.axiyan.316@mail.ru).
+* Email: [daniil.axiyan.316@mail.ru](mailto:daniil.axiyan.316@mail.ru);
+* Discord(rs-school server): [vezuchiy(@vezuchiy-patsan)](https://discordapp.com/users/389692855523737612).
 
 ## About me
 
