@@ -51,10 +51,13 @@ console.log(phrase()); //Hello Daniil Akhiyan
     + Yandex map.api
     + PHP
     + MySql
+
 [Github](https://github.com/vezuchiy-patsan/spb_excurs)
+
 2. Personal website - [Daniil Akhiyan](http://akhiyan-portfolio.ml/)
     + HTML
     + CSS
+
 [Github](https://github.com/vezuchiy-patsan/portfolio)
 
 ## Education
