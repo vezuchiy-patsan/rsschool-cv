@@ -44,16 +44,16 @@ console.log(phrase()); //Hello Daniil Akhiyan
 ## Projects
 
 1. Educational project - [website of a tour of the roofs of St. Petersburg](http://p90527sx.beget.tech/)
-        + HTML
-        + CSS
-        + JavaScript
-        + Yandex map.api
-        + PHP
-        + MySql
+    + HTML
+    + CSS
+    + JavaScript
+    + Yandex map.api
+    + PHP
+    + MySql
 [Github](https://github.com/vezuchiy-patsan/spb_excurs)
 2. Personal website - [Daniil Akhiyan](http://akhiyan-portfolio.ml/)
-        + HTML
-        + CSS
+    + HTML
+    + CSS
 [Github](https://github.com/vezuchiy-patsan/portfolio)
 
 ## Education
