@@ -1,3 +1,57 @@
 body {
   margin: 0;
+}
+
+div.layout {
+  width: 1200px;
+  margin: 0 auto;
+}
+div.layout header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+div.layout header div.back_name {
+  background-color: rgb(155, 177, 227);
+  min-width: 280px;
+  min-height: 215px;
+  margin: auto 0;
+}
+div.layout header div.back_name h1 {
+  text-align: left;
+  margin: 30% auto;
+}
+div.layout header .img_prof {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 250px;
+}
+div.layout header .img_prof .profil_d {
+  width: 200px;
+  height: 215px;
+}
+div.layout header .img_prof .profil_d img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+div.layout main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+div.layout main section.cols {
+  width: 260px;
+  padding: 0 10px;
+  background-color: rgb(155, 177, 227);
 }/*# sourceMappingURL=style.css.map */
