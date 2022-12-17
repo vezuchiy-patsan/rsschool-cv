@@ -54,4 +54,11 @@ div.layout main section.cols {
   width: 260px;
   padding: 0 10px;
   background-color: rgb(155, 177, 227);
+}
+div.layout main section.cols_main {
+  padding: 50px 10px 10px 50px;
+}
+div.layout main section.cols_main article {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=style.css.map */
