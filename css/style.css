@@ -37,7 +37,7 @@ div.layout header .img_prof {
   margin-left: 250px;
 }
 div.layout header .img_prof .profil_d {
-  width: 200px;
+  width: 215px;
   height: 215px;
 }
 div.layout header .img_prof .profil_d img {
@@ -50,6 +50,33 @@ div.layout main {
   display: -ms-flexbox;
   display: flex;
 }
+div.layout main h1, div.layout main h2, div.layout main h3, div.layout main h4, div.layout main h5, div.layout main h6 {
+  margin-bottom: 5px;
+}
+div.layout main ul {
+  padding-left: 30px;
+}
+div.layout main ul li:first-child {
+  margin-top: 10px;
+}
+div.layout main div.short_line {
+  background-image: linear-gradient(10deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5725490196) 50%, rgba(0, 0, 0, 0));
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: 100% 1px;
+  height: 2px;
+  width: 70px;
+}
+div.layout main div.line {
+  position: relative;
+  left: -10px;
+  background-image: linear-gradient(10deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5725490196) 50%, rgba(0, 0, 0, 0));
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: 100% 1px;
+  height: 2px;
+  width: 200px;
+}
 div.layout main section.cols {
   width: 260px;
   padding: 0 10px;
@@ -61,4 +88,38 @@ div.layout main section.cols_main {
 div.layout main section.cols_main article {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+div.layout main section.cols_main article.code_ex .code_zone {
+  background-color: rgba(128, 128, 128, 0.2588235294);
+  border-radius: 20px;
+}
+div.layout main section.cols_main article.code_ex .code_zone .f_code {
+  color: #ba00ab;
+}
+div.layout main section.cols_main article.code_ex .code_zone .txt_code {
+  color: #03a203;
+}
+div.layout main section.cols_main article.code_ex .code_zone .com_cod {
+  color: #878787;
+}
+div.layout footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+div.layout footer div:first-child {
+  width: 280px;
+  height: 100px;
+  background-color: rgb(155, 177, 227);
+}
+div.layout footer div:first-child a {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
 }/*# sourceMappingURL=style.css.map */
