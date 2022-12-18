@@ -1,5 +1,6 @@
 body
     margin:  0
+    font-family: 'Gothic A1', 'Helvetica', sans-serif
 a:active, a
     text-decoration: none
     color: #777777
@@ -25,10 +26,15 @@ div.layout
                 min-width: 280px
                 min-height: 215px
                 margin: auto 0
-                h1
+                h1,h3
                     text-align: left
                     margin: 30% 0 0 10px
-
+                h3
+                    margin-top: 5%
+                    margin-left: 40px
+                    font-style: italic
+                    font-size: 16px
+                    
             .img_prof
                 display: flex
                 align-items: center
@@ -77,6 +83,7 @@ div.layout
                 width: 260px
                 padding: 0 10px
                 background-color: rgba(155,177,227,1)
+
             section.cols_main
                 padding: 50px 10px 10px 50px 
                 article
@@ -102,6 +109,8 @@ div.layout
                     &.code_ex .code_zone
                         background-color:  #80808042
                         border-radius: 20px
+                        font-size: 14px 
+
                         .f_code
                             color: #ba00ab
                         .txt_code

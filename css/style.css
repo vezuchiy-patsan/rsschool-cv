@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Gothic A1", "Helvetica", sans-serif;
 }
 
 a:active, a {
@@ -41,9 +42,15 @@ div.layout header div.back_name {
   min-height: 215px;
   margin: auto 0;
 }
-div.layout header div.back_name h1 {
+div.layout header div.back_name h1, div.layout header div.back_name h3 {
   text-align: left;
   margin: 30% 0 0 10px;
+}
+div.layout header div.back_name h3 {
+  margin-top: 5%;
+  margin-left: 40px;
+  font-style: italic;
+  font-size: 16px;
 }
 div.layout header .img_prof {
   display: -webkit-box;
@@ -136,6 +143,7 @@ div.layout main section.cols_main article.projects .gitlink:hover {
 div.layout main section.cols_main article.code_ex .code_zone {
   background-color: rgba(128, 128, 128, 0.2588235294);
   border-radius: 20px;
+  font-size: 14px;
 }
 div.layout main section.cols_main article.code_ex .code_zone .f_code {
   color: #ba00ab;
