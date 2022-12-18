@@ -121,7 +121,7 @@ div.layout main section.cols_main {
   padding: 50px 10px 10px 50px;
 }
 div.layout main section.cols_main article {
-  margin-top: 30px;
+  margin-top: 5px;
   margin-bottom: 30px;
 }
 div.layout main section.cols_main article.projects li .link_proj {
@@ -129,6 +129,7 @@ div.layout main section.cols_main article.projects li .link_proj {
 }
 div.layout main section.cols_main article.projects .gitlink {
   display: inline-block;
+  margin: 15px 10px;
   border-radius: 50px;
   padding: 5px 10px;
   background-color: #5b5b5b;

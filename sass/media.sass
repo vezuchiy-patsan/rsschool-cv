@@ -27,7 +27,9 @@
                 font-size: 16px
         footer div:first-child
             max-width: 240px
-@media screen and (max-width: 640px)    
+@media screen and (max-width: 640px)
+    h2 
+        font-size: 30px    
     div.layout header
         flex-direction: column
         background-color: rgb(155, 177, 227)
@@ -45,9 +47,11 @@
             ul
                 padding-left: 15px
                 
+                
             ul>li
                 font-size: 30px
-
+                .material-symbols-outlined
+                    font-size: 28px
                 a
                     color: #e3e3e3
                 
@@ -59,7 +63,8 @@
         section.cols 
             max-width: 100% !important
             box-shadow: 0 6px 9px -5px
-        article.about_me
+        h2
+            text-align: center
             margin-top: 30px
             width: 80%
             margin: 0 auto

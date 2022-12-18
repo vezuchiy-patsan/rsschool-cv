@@ -40,6 +40,9 @@
   }
 }
 @media screen and (max-width: 640px) {
+  h2 {
+    font-size: 30px;
+  }
   div.layout header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -70,6 +73,9 @@
   div.layout header .img_prof ul > li {
     font-size: 30px;
   }
+  div.layout header .img_prof ul > li .material-symbols-outlined {
+    font-size: 28px;
+  }
   div.layout header .img_prof ul > li a {
     color: #e3e3e3;
   }
@@ -87,7 +93,8 @@
     -webkit-box-shadow: 0 6px 9px -5px;
             box-shadow: 0 6px 9px -5px;
   }
-  main article.about_me {
+  main h2 {
+    text-align: center;
     margin-top: 30px;
     width: 80%;
     margin: 0 auto;
