@@ -33,6 +33,7 @@
     div.layout header
         flex-direction: column
         background-color: rgb(155, 177, 227)
+        font-size: 24px
         div.back_name h1 
             font-size: 36px
             text-align: center
@@ -59,21 +60,23 @@
                 font-size: 32px
     main
         flex-direction: column
-
+        
         section.cols 
             max-width: 100% !important
             box-shadow: 0 6px 9px -5px
+            
         h2
             text-align: center
             margin-top: 30px
             width: 80%
             margin: 0 auto
+            padding-top: 15px
     main article.about_me h2, main article.about_me .short_line
         text-align: center
         margin: 0 auto
         width: 70% !important
     main article.about_me p, main article.about_me ul>li
-        font-size: 18px
+        font-size: 22px
     main article.my_skills h2, main article.my_skills .short_line
         text-align: center
         margin: 0 auto
@@ -85,6 +88,8 @@
         font-size: 20px
     div.layout main section.cols_main
         padding: 10px 10px
+        article.projects .gitlink
+            margin: 5px 0 5px 50px
         h2, div.line
             text-align: center
             margin: 0 auto
@@ -103,7 +108,7 @@
         font-size: 20px
 @media screen and (max-width: 510px)
     div.layout main section.cols_main article.code_ex .code_zone
-        font-size: 14px
+        font-size: 16px
     div.layout main section.cols_main article.educat, div.layout main section.cols_main article.lang, div.layout main section.cols_main article.about_me
         font-size: 20px 
     div.layout main section.cols_main article.code_ex .code_zone 

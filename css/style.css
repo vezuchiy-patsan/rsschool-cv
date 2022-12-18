@@ -117,6 +117,13 @@ div.layout main section.cols {
   padding: 0 10px;
   background-color: rgb(155, 177, 227);
 }
+div.layout main section.cols article h4 {
+  font-weight: 500;
+  font-size: 22px;
+}
+div.layout main section.cols article p {
+  margin-top: 5px;
+}
 div.layout main section.cols_main {
   padding: 50px 10px 10px 50px;
 }
@@ -124,12 +131,16 @@ div.layout main section.cols_main article {
   margin-top: 5px;
   margin-bottom: 30px;
 }
+div.layout main section.cols_main article.projects ol h4 {
+  font-weight: 500;
+  display: inline-block;
+}
 div.layout main section.cols_main article.projects li .link_proj {
   color: rgb(155, 177, 227);
 }
 div.layout main section.cols_main article.projects .gitlink {
   display: inline-block;
-  margin: 15px 10px;
+  margin: 10px 0 15px 50px;
   border-radius: 50px;
   padding: 5px 10px;
   background-color: #5b5b5b;
