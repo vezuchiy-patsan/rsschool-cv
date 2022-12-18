@@ -99,6 +99,7 @@ div.layout main div.short_line {
   background-size: 100% 1px;
   height: 2px;
   width: 70px;
+  padding-top: 10px;
 }
 div.layout main div.line {
   position: relative;
@@ -109,9 +110,10 @@ div.layout main div.line {
   background-size: 100% 1px;
   height: 2px;
   width: 200px;
+  padding-top: 10px;
 }
 div.layout main section.cols {
-  width: 260px;
+  max-width: 260px;
   padding: 0 10px;
   background-color: rgb(155, 177, 227);
 }
